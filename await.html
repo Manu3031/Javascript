@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Await Method</h2>
+<p id="demo"></p>
+<script>
+async function myDisplay() {
+  let myPromise = new Promise(function(resolve, reject) {
+    resolve("Hello!");
+  });
+  document.getElementById("demo").innerHTML = await myPromise;
+}
+myDisplay();
+</script>
+</body>
+</html>
