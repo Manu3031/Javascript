@@ -39,3 +39,38 @@ Variables defined with const cannot be Redeclared. Variables defined with const 
 
 Example: 
 
+FILTER METHOD:
+
+The filter() method creates a new array filled with elements that pass a test provided by a function. It does not execute the function for empty elements. It does not change the original array.
+
+Example: 
+
+HOISTING METHOD:
+
+In javaScript, Declarations are Hoisted. A variable can be declared after it has been used. A variable can be used before it has been declared. Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope. In javascript only decalarations are hoisted but not initializations.
+
+Example:
+
+LET METHOD:
+
+Variables declared with let have Block Scope. Variables declared with let must be Declared before use. Variables declared with let cannot be Redeclared in the same scope.
+
+Example:
+
+LOGICAL OPERATOR:
+
+Logical operators are used to determine the logic between variables or values. The && operator returns true if both expressions are true, otherwise it returns false. The || returns true if one or both expressions are true, otherwise it returns false. The NOT operator (!) returns true for false statements and false for true statements.
+
+Example:
+
+MAP METHOD:
+
+map() creates a new array from calling a function for every array element. It does not execute the function for empty elements. It does not change the original array.
+
+Example: 
+
+OBJECT DESTRUCTURING:
+
+Object destructuring helps to unpack object properties into variables. For potentially missing properties we can set default values in it.
+
+Example:
